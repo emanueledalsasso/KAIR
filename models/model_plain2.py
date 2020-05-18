@@ -55,7 +55,8 @@ class ModelPlain2(ModelBase):
     # save model
     # ----------------------------------------
     def save(self, iter_label):
-        self.save_network(self.save_dir, self.netG, 'G', iter_label)
+        #self.save_network(self.save_dir, self.netG, 'G', iter_label)
+        self.save_network('/content/Drive/My\ Drive/ffdnetmodel/', self.netG, 'G', iter_label)
 
     # ----------------------------------------
     # define loss
